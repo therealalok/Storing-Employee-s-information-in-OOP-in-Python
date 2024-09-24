@@ -1,0 +1,15 @@
+class Employee:
+    def emp_info(self,name,age,salary,address):
+        self.name=name
+        self.age=age
+        self.salary=salary
+        self.address=address
+
+    def store_info(self):
+        print(f"{self.name}, who's age is {self.age} has the salary of Rs.{self.salary}. He lives in {self.address}. ")
+
+
+e=Employee()
+e.emp_info("Prakash",18,50000,"Kathmandu")
+e.store_info()
+     
